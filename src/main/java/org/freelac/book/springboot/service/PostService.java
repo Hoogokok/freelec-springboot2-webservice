@@ -3,7 +3,7 @@ package org.freelac.book.springboot.service;
 import lombok.RequiredArgsConstructor;
 import org.freelac.book.springboot.domain.posts.PostRepository;
 import org.freelac.book.springboot.domain.posts.Posts;
-import org.freelac.book.springboot.web.dto.PostSaveRequestDto;
+import org.freelac.book.springboot.web.dto.PostsSaveRequestDto;
 import org.freelac.book.springboot.web.dto.PostsListResponseDto;
 import org.freelac.book.springboot.web.dto.PostsResponseDto;
 import org.freelac.book.springboot.web.dto.PostsUpdateRequestDto;
@@ -19,7 +19,7 @@ public class PostService {
     private final PostRepository postRepository;
 
     @Transactional
-    public Long save(PostSaveRequestDto requestDto) {
+    public Long save(PostsSaveRequestDto requestDto) {
         return postRepository.save(requestDto.toEntity()).getId();
     }
 

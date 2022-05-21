@@ -60,7 +60,7 @@ hs_err_pid*
 
 # Java class files
 *.class
-
+appication-oauth.properties
 # Generated files
 bin/
 gen/
