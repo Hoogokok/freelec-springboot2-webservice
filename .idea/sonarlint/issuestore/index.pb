@@ -9,12 +9,8 @@ r
 Bsrc/main/java/org/freelac/book/springboot/web/HelloController.java,0/c/0c2a705d0686abc3573708af050c26430dc92e0c
 w
 Gsrc/main/java/org/freelac/book/springboot/web/dto/HelloResponseDto.java,0/1/015d4e2f33317b2de4d3c94954539a6e4639f59c
-v
-Fsrc/test/java/org/freelac/book/springboot/web/IndexControllerTest.java,7/0/703c34e62e1266607bc1c4985f3501580ce0552d
 {
 Ksrc/test/java/org/freelac/book/springboot/web/dto/HelloResponseDtoTest.java,0/e/0e6e10c8b9442afc1685a7be792b6f6f469a8456
-v
-Fsrc/test/java/org/freelac/book/springboot/web/HelloControllerTest.java,9/0/90ee7dc9452e5b38c61aff85cb8f0c3569f9d5c6
 o
 ?src/main/java/org/freelac/book/springboot/config/JpaConfig.java,8/2/8209ec6b24dd62e9dc47e688216eafd5da6e5a81
 t
@@ -42,8 +38,6 @@ z
 Jsrc/main/java/org/freelac/book/springboot/config/auth/dto/SessionUser.java,9/e/9ee4e820b6228f3417565daeea6f02e09f2c965e
 ~
 Nsrc/main/java/org/freelac/book/springboot/config/auth/dto/OauthAttributes.java,7/3/73c67f91d1c73e22c8456804312abe64becdcd90
-~
-Nsrc/test/java/org/freelac/book/springboot/domain/posts/PostRepositoryTest.java,1/0/108f344af91e53cbb08c394d0dd0b4764c4f4717
 r
 Bsrc/main/java/org/freelac/book/springboot/service/PostService.java,0/4/041c791e1c6d14774812f055d32a403b2620b3ab
 y
@@ -52,10 +46,6 @@ o
 ?src/main/java/org/freelac/book/springboot/domain/user/User.java,c/3/c3da42cb52b31a3ad10651a5e34e370924f1f946
 t
 Dsrc/main/java/org/freelac/book/springboot/domain/BaseTimeEntity.java,8/c/8cdbdf9c6556870099e9df95317a2048647f4e41
-j
-:src/main/java/org/freelac/book/springboot/Application.java,b/8/b8c9b733c88d1ba6c2e722f984414d44e877e614
-y
-Isrc/test/java/org/freelac/book/springboot/web/PostsApiControllerTest.java,0/7/07dce92e8165b469bfa995d4cfbaf66fe7021331
 S
 #practice-springboot2-webservice.pem,a/2/a2709f7e9d71a51429b46d7c12f72fc6e6556f53
 ?
