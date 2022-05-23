@@ -50,3 +50,9 @@ S
 #practice-springboot2-webservice.pem,a/2/a2709f7e9d71a51429b46d7c12f72fc6e6556f53
 ?
 settings.gradle,0/5/05efc8b1657769a27696d478ded1e95f38737233
+q
+Asrc/main/java/org/freelac/book/springboot/domain/posts/Posts.java,5/7/573b64191d3b57ad1608f6f99493479b208af8c6
+;
+gradlew.bat,2/a/2a45a911a8f1836b0b6c5b758962572012d8f8c3
+v
+Fsrc/test/java/org/freelac/book/springboot/web/HelloControllerTest.java,9/0/90ee7dc9452e5b38c61aff85cb8f0c3569f9d5c6
