@@ -21,8 +21,6 @@ t
 Dsrc/main/java/org/freelac/book/springboot/web/PostApiController.java,5/9/5984c15deb4a75db41710b42b0b90c4c6568c185
 z
 Jsrc/main/java/org/freelac/book/springboot/web/dto/PostsSaveRequestDto.java,5/2/5209032f6edb0d06c457377dce55112d5f15806e
-o
-?src/main/java/org/freelac/book/springboot/domain/user/Role.java,e/1/e1bb5411287a74636f42330f2af04b6a65ce11e0
 y
 Isrc/main/java/org/freelac/book/springboot/config/auth/SecurityConfig.java,0/5/05ab8b5cfa34a3caefe968008005c28421a8836c
 o
@@ -46,8 +44,6 @@ o
 ?src/main/java/org/freelac/book/springboot/domain/user/User.java,c/3/c3da42cb52b31a3ad10651a5e34e370924f1f946
 t
 Dsrc/main/java/org/freelac/book/springboot/domain/BaseTimeEntity.java,8/c/8cdbdf9c6556870099e9df95317a2048647f4e41
-S
-#practice-springboot2-webservice.pem,a/2/a2709f7e9d71a51429b46d7c12f72fc6e6556f53
 ?
 settings.gradle,0/5/05efc8b1657769a27696d478ded1e95f38737233
 q
@@ -56,3 +52,19 @@ Asrc/main/java/org/freelac/book/springboot/domain/posts/Posts.java,5/7/573b6419
 gradlew.bat,2/a/2a45a911a8f1836b0b6c5b758962572012d8f8c3
 v
 Fsrc/test/java/org/freelac/book/springboot/web/HelloControllerTest.java,9/0/90ee7dc9452e5b38c61aff85cb8f0c3569f9d5c6
+y
+Isrc/test/java/org/freelac/book/springboot/web/PostsApiControllerTest.java,0/7/07dce92e8165b469bfa995d4cfbaf66fe7021331
+v
+Fsrc/test/java/org/freelac/book/springboot/web/IndexControllerTest.java,7/0/703c34e62e1266607bc1c4985f3501580ce0552d
+j
+:src/main/java/org/freelac/book/springboot/Application.java,b/8/b8c9b733c88d1ba6c2e722f984414d44e877e614
+~
+Nsrc/test/java/org/freelac/book/springboot/domain/posts/PostRepositoryTest.java,1/0/108f344af91e53cbb08c394d0dd0b4764c4f4717
+X
+(gradle/wrapper/gradle-wrapper.properties,f/b/fbe448ebfc3eb2d4e308f6b8b043666f5b57235e
+<
+build.gradle,f/0/f07866736216be0ee2aba49e392191aeae700a35
+o
+?src/main/java/org/freelac/book/springboot/domain/user/Role.java,e/1/e1bb5411287a74636f42330f2af04b6a65ce11e0
+A
+scripts/switch.sh,a/7/a7279dbbcdc61c31d79c98f5d6c5150b2c1cf988
