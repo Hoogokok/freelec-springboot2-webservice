@@ -41,3 +41,17 @@ jobs:
         run:  ./gradlew build
         shell: bash
         
+      - name: zip 파일 만들기
+        run: zip -r ./$GITHUB_SHA.zip .
+        shell: bash
+      
+      - name: aws 세팅
+        uses: aws-actions/configure-aws-credentials@v1
+        with:
+          aws-acces-key-id: ${{ secrets.AWS_ACCESS_KEY_ID}}
+          aws-secret-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-region: ${{ secrets.AWS_REGION }}
+      
+      - name: S3 업로드
+        run: aws s3 cp --region ap-northeast-2 ./$GITHUB_SHA.zip s3://$S3_BUCKET_NAME/$PROJECT_NAME/$GITHUB_SHA.zip
+
