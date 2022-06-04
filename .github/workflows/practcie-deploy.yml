@@ -61,14 +61,3 @@ jobs:
 
       - name: Code Deploy
         run: aws deploy create-deployment --application-name practice-logging-deploy --deployment-config-name CodeDeployDefault.AllAtOnce --deployment-group-name develop --s3-location bucket=$S3_BUCKET_NAME,bundleType=zip,key=$PROJECT_NAME/$GITHUB_SHA.zip
-
-      - name: Get current time
-          uses: 1466587594/get-current-time@v2
-          id: current-time
-          with:
-            format: YYYY-MM-DDTHH-mm-ss
-            utcOffset: "+09:00"
-
-      - name: Show Current Time
-          run: echo "CurrentTime=${{steps.current-time.outputs.formattedTime}}"
-          shell: bash
