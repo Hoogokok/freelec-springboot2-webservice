@@ -66,3 +66,13 @@ S
 #practice-springboot2-webservice.pem,a/2/a2709f7e9d71a51429b46d7c12f72fc6e6556f53
 <
 build.gradle,f/0/f07866736216be0ee2aba49e392191aeae700a35
+y
+Isrc/main/java/org/freelac/book/springboot/config/auth/SecurityConfig.java,0/5/05ab8b5cfa34a3caefe968008005c28421a8836c
+t
+Dsrc/main/java/org/freelac/book/springboot/web/PostApiController.java,5/9/5984c15deb4a75db41710b42b0b90c4c6568c185
+;
+appspec.yml,3/2/323482c68cf68aa6001a3280b1dbb38f31ee6cbc
+G
+scripts/health_check.sh,4/e/4e60ecea1a5c252c492c803f58f63c83c7fb02f0
+y
+Isrc/test/java/org/freelac/book/springboot/web/PostsApiControllerTest.java,0/7/07dce92e8165b469bfa995d4cfbaf66fe7021331
