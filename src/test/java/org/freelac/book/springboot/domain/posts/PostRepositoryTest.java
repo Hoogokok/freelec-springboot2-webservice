@@ -30,7 +30,7 @@ class PostRepositoryTest {
     public void findAll() {
         //given
         String title = "테스트 게시글";
-        String content = "test 본문";
+        String content = "test 본문임";
 
         postRepository.save(Posts.builder()
                 .title(title)
